@@ -1,3 +1,5 @@
+package strategy;
+
 public class Delevation_vs_Composition {
     /*
     * Делегирование - прямое имплементирование (субклассирование)
