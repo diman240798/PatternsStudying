@@ -1,4 +1,4 @@
-package Observer;
+package observer;
 
 public interface Observable {
     void subscribe(Observer observer);

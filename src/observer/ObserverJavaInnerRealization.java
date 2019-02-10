@@ -1,4 +1,4 @@
-package Observer;
+package observer;
 
 import java.util.Observable;
 import java.util.Observer;
@@ -17,7 +17,7 @@ public class ObserverJavaInnerRealization {
 class Subscriber implements Observer {
     @Override
     public void update(Observable o, Object arg) {
-        System.out.println(String.format("Observer %d is being updated.", hashCode()));
+        System.out.println(String.format("observer %d is being updated.", hashCode()));
     }
 }
 class JavaObservable extends Observable {}
