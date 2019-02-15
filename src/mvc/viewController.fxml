@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="194.0" prefWidth="224.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="controllerBeatScreen" layoutX="80.0" layoutY="17.0" />
+      <Label layoutX="10.0" layoutY="23.0" text="Enter Bpm:" />
+      <Button layoutX="10.0" layoutY="56.0" mnemonicParsing="false" onAction="#onSetClicked" prefWidth="230.0" text="Set" />
+      <Button layoutX="10.0" layoutY="95.0" mnemonicParsing="false" onAction="#onDecrease" prefWidth="115.0" text="&lt;&lt;" />
+      <Button layoutX="125.0" layoutY="95.0" mnemonicParsing="false" onAction="#onIncrease" prefWidth="115.0" text="&gt;&gt;" />
+      <Label fx:id="controllerReportLabel" layoutX="10" layoutY="120" prefHeight="27.0" prefWidth="240.0" text="Report appears here." />
+   </children>
+</Pane>
